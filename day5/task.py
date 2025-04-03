@@ -57,6 +57,7 @@ for i in range(1,5):
     print("Password generated:", mix_pass_letter)
 print("Shuffled",mix_pass_letter)
 # Build the password string using a for loop
+
 password = ""
 for char in mix_pass_letter:
     password += char

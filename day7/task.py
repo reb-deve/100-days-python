@@ -14,10 +14,10 @@ print("""
                     __/ |
                    |___/
 """)
-lives =6
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
+lives =6
 
 for position in range(word_length):
     placeholder = "_"
